@@ -26,7 +26,7 @@ def display
   #Proyeccion ortografica, dentro de un cubo
   #glOrtho(-1.0,1.0,-1.0,1.0,-1.0,1.0)
 gluPerspective(60.0,1.0,1.0,100.0);
-glTranslatef(0.0,0.0,-16.0);
+glTranslatef(0.0,0.0,-2.0);
 
   #modo de Modelado
   glMatrixMode(GL_MODELVIEW)
