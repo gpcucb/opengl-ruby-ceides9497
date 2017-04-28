@@ -88,7 +88,8 @@ glTranslatef(0.0,0.0,-16.0);
   #pierna derecha
   glColor3f(0.0,0.3,0.8);
     glPushMatrix();
-    glTranslatef(-(BODY_WIDTH-LEG_WIDTH)/2,-(BODY_HEIGHT+LEG_HEIGHT)/2,0);
+    glTranslatef((-(BODY_WIDTH-LEG_WIDTH)/2)-0.6,(-(BODY_HEIGHT+LEG_HEIGHT)/2)+0.5,0);
+    glRotatef(-20,0,0,1);
     glPushMatrix();
       glScalef(LEG_WIDTH,LEG_HEIGHT,LEG_LENGTH);
       glutSolidCube(1);
